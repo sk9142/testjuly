@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo $CODEBUILD_GIT_BRANCH 
+      - codebuild-breakpoint
       - echo $CODEBUILD_GIT_AUTHOR
       - echo $CODEBUILD_WEBHOOK_HEAD_REF 
       - echo $CODEBUILD_WEBHOOK_BASE_REF 
