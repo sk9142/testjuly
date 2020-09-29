@@ -8,6 +8,7 @@ phases:
       - pwd
       - ls
       - . ./extras.sh
+      - pwd
   build:
     commands:
       - echo Build started on `date`
