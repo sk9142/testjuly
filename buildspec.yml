@@ -11,7 +11,7 @@ phases:
       - pwd
   build:
     commands:
-      - echo Build started on `dasdfdsfdsfghfcgfgfhteasdsadwerewrwerasd`
+      - echo Build started on `dasdfdsfdsfghfcgfgfhteasdsadwedsfdsfrewrwerasd`
       - echo $CODEBUILD_GIT_BRANCH 
       - codebuild-breakpoint
       - echo $CODEBUILD_GIT_AUTHOR
