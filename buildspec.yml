@@ -1,21 +1,7 @@
 version: 0.2
 
-phases:
-  install:
-    commands:
-      - echo Installing codebuild-extras...
-      - curl -fsSL https://raw.githubusercontent.com/thii/aws-codebuild-extras/master/install >> extras.sh
-      - pwd
-      - ls
-      - . ./extras.sh
-      - pwd
+phasfghfges:
   build:
     commands:
       - echo Build started on `dasdfdsfdsfghfcgfgfhteasdsadwerewrwerasd`
-      - echo $CODEBUILD_GIT_BRANCH 
-      - codebuild-breakpoint
-      - echo $CODEBUILD_GIT_AUTHOR
-      - echo $CODEBUILD_WEBHOOK_HEAD_REF 
-      - echo $CODEBUILD_WEBHOOK_BASE_REF 
-      - echo $CODEBUILD_SOURCE_REPO_URL
-      - echo $CODEBUILD_BUILD_ID
+      
