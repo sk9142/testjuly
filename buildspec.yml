@@ -3,4 +3,4 @@ version: 0.2
 phases:
   builretd:
     commands:
-       - echo "hello worsdfdsfld"
+       - echo "hello worsdfsdfdsfld"
